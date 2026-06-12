@@ -1,0 +1,6 @@
+métrica,valor
+Modelo ganador,Logistic Regression
+Accuracy,0.9683
+Precision macro,0.9681
+Recall macro,0.9689
+F1 macro,0.9685
