@@ -177,5 +177,5 @@ Users can simulate new HR operational scenarios and instantly receive the predic
 
 This section explains the complete analytical workflow used to build the solution, from business understanding and feature engineering to machine learning and deployment.
 
-![Project Methodology](images/metodología.png)
+![Project Methodology](images/methodoly.png)
 
