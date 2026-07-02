@@ -106,29 +106,23 @@ HR-Process-Automation-Scanner
 
 ## Machine Learning Pipeline
 
-```text
-Operational HR Data
-        │
-        ▼
-Data Cleaning
-        │
-        ▼
-Feature Engineering
-        │
-        ▼
-Business Rules
-        │
-        ▼
-Machine Learning Model
-        │
-        ▼
-Automation Priority
-        │
-        ▼
-Technology Recommendation
-        │
-        ▼
-Estimated Hours Saved
+```mermaid
+flowchart TD
+
+A[Operational HR Data]
+--> B[Data Cleaning]
+
+B --> C[Feature Engineering]
+
+C --> D[Business Rules]
+
+D --> E[Machine Learning Model]
+
+E --> F[Automation Priority Prediction]
+
+F --> G[Technology Recommendation]
+
+G --> H[Estimated Hours Saved]
 ```
 
 ---
