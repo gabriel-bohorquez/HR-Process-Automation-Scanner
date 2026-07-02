@@ -7,6 +7,12 @@
 This project identifies, prioritizes and recommends HR processes with the highest automation potential using data analytics, business rules, machine learning, Tableau and Streamlit.
 
 It transforms operational HR ticket data into a decision-support tool that helps teams understand where automation can generate the highest operational impact.
+
+## Live Demo
+
+Try the application online:
+
+Streamlit App:** Coming soon
 ---
 
 ## Project Overview
@@ -36,6 +42,20 @@ The final solution includes:
 | Web App | Streamlit |
 | Data Processing | Feature Engineering |
 | Business | HR Analytics · Process Automation · Decision Support |
+
+---
+
+# Model Performance
+
+| Metric | Value |
+|---------|------:|
+| Accuracy | **96.83%** |
+| Macro F1 Score | **96.85%** |
+| Algorithm | Logistic Regression |
+| Classes | Alta · Media · Baja |
+| Task | Multiclass Classification |
+
+The model predicts the automation priority of HR operational units with high overall performance, making it suitable for decision-support scenarios.
 
 ---
 
@@ -124,7 +144,5 @@ The executive dashboard provides an overview of automation opportunities across 
 - Estimated hours saved
 - Priority distribution
 - Top automation candidates
-
-![Executive Dashboard](images/dashboard.png)
 
 ---
