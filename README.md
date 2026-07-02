@@ -149,5 +149,33 @@ The executive dashboard provides an overview of automation opportunities across 
 ---
 ## Full Project Showcase
 
-![Project Showcase](images/project_showcase.png)
+### 1. Executive Dashboard
+
+The executive dashboard provides a high-level overview of automation opportunities across HR Operations, including KPIs, automation scores, priority distribution and estimated operational impact.
+
+![Executive Dashboard](images/dashboard.png)
+
+---
+
+### 2. Automation Opportunity Ranking
+
+This interactive ranking identifies the operational units with the highest automation potential based on business rules and machine learning predictions.
+
+![Automation Ranking](images/ranking_eng.png)
+
+---
+
+### 3. Predictive Simulator
+
+Users can simulate new HR operational scenarios and instantly receive the predicted automation priority, confidence score, technology recommendation and estimated hours saved.
+
+![Predictive Simulator](images/simulator_eng.png)
+
+---
+
+### 4. Project Methodology
+
+This section explains the complete analytical workflow used to build the solution, from business understanding and feature engineering to machine learning and deployment.
+
+![Project Methodology](images/methodology_eng.png)
 
