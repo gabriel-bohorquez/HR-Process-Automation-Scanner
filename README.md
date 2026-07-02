@@ -161,7 +161,7 @@ The executive dashboard provides a high-level overview of automation opportuniti
 
 This interactive ranking identifies the operational units with the highest automation potential based on business rules and machine learning predictions.
 
-![Automation Ranking](images/ranking_eng.png)
+![Automation Ranking](images/ranking.png)
 
 ---
 
@@ -169,7 +169,7 @@ This interactive ranking identifies the operational units with the highest autom
 
 Users can simulate new HR operational scenarios and instantly receive the predicted automation priority, confidence score, technology recommendation and estimated hours saved.
 
-![Predictive Simulator](images/simulator_eng.png)
+![Predictive Simulator](images/simulator.png)
 
 ---
 
@@ -177,5 +177,5 @@ Users can simulate new HR operational scenarios and instantly receive the predic
 
 This section explains the complete analytical workflow used to build the solution, from business understanding and feature engineering to machine learning and deployment.
 
-![Project Methodology](images/methodology_eng.png)
+![Project Methodology](images/metodología.png)
 
