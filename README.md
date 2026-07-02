@@ -147,3 +147,7 @@ The executive dashboard provides an overview of automation opportunities across 
 - Top automation candidates
 
 ---
+## Full Project Showcase
+
+![Project Showcase](images/project_showcase.png)
+
