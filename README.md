@@ -1,5 +1,12 @@
 # HR Process Automation Scanner
 
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-E97627?logo=tableau)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B?logo=streamlit)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-success)
+
 ### End-to-End Data Analytics & Machine Learning Project
 
 ![HR Process Automation Scanner Dashboard](images/dashboard.png)
