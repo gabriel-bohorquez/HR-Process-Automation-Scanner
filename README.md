@@ -19,7 +19,7 @@ It transforms operational HR ticket data into a decision-support tool that helps
 
 Try the application online:
 
-Streamlit App:** Coming soon
+Streamlit App:** https://hr-process-automation-scanner.streamlit.app
 ---
 
 ## Project Overview
