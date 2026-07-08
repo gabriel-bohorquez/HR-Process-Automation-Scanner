@@ -28,11 +28,39 @@
 
 **Time period:** Not reliably documented in the original dataset.
 
-**License:** Pending verification and documentation.
+**License:** Apache License 2.0.
+
+**Source platform:** Kaggle.
+
+**Dataset title:** Customer Support Tickets Dataset (200K+ Records).
+
+**Dataset author:** Mirza Yasir Abdullah.
+
+**Source URL:** https://www.kaggle.com/datasets/mirzayasirabdullah07/customer-support-tickets-dataset-200k-records
+
+**Primary dataset used for analysis and modeling:** `customer_support_tickets_200k.csv`
+
+**Secondary dataset reviewed:** `customer_support_tickets.csv` — used only for comparison and backup purposes; not used to train the final model.
+
+**Complementary process dataset reviewed:** `helpdesk_event_log.csv` — used to understand ticket-process structure; not used to train the final model.
+
+**Dataset integration statement:** The three raw datasets were not merged. The final analytical workflow was built from `customer_support_tickets_200k.csv`.
 
 **Adaptation performed:** The original support-ticket fields were reinterpreted to represent HR processes, HR systems, regions, internal contact channels, operational complexity, SLA pressure, and automation potential.
 
 **Methodological warning:** The dataset does not come from a real HR Operations environment. Therefore, the project must be presented as an analytical prototype rather than as a solution validated with real enterprise HR data.
+
+### Raw Data Quality Summary
+
+- Dataset dimensions: `200,000` rows and `30` columns.
+- Exact duplicate rows: `0`.
+- Missing values: `40,023` missing values in the original `browser` field.
+- Missing-value rate in `browser`: approximately `20.01%`.
+- The `browser` field was not used in the final prioritization model.
+- No other missing values were identified in the raw dataset.
+- Numeric variables were found within plausible source ranges.
+- `ticket_created_date` and `ticket_resolved_date` were originally stored as text and were converted to datetime during data preparation.
+- The raw dataset was preserved without overwriting.
 
 ## 3. Data Transformation and Feature Engineering
 
