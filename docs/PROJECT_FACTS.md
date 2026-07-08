@@ -214,6 +214,31 @@
 * High-priority case rate
 * Urgent-priority case rate
 
+**Verified production features from the serialized pipeline:**
+
+**Numeric features:**
+
+* `total_cases`
+* `avg_resolution_time_hours`
+* `avg_first_response_time_hours`
+* `sla_breach_rate`
+* `escalation_rate`
+* `avg_complexity_score`
+* `avg_satisfaction_score`
+* `avg_previous_cases`
+* `avg_employee_tenure_months`
+* `high_priority_rate`
+* `urgent_priority_rate`
+
+**Categorical features:**
+
+* `hr_process_name`
+* `hr_system_name`
+* `hr_contact_channel`
+* `region`
+
+**Verification result:** The serialized production pipeline does not include `automation_score`, `automation_priority`, `recommended_solution`, `ranking`, or savings-related outputs as predictors.
+
 **Variables excluded from model training:**
 
 * `automation_priority`
