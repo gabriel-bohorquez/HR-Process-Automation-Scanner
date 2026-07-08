@@ -128,6 +128,20 @@
 
 **Prioritization rule:** Operational units with higher automation scores were assigned a higher automation priority.
 
+**Final score thresholds:**
+
+- `Baja`: automation score below `46.0075`
+- `Media`: automation score from `46.0075` up to, but not including, `52.92`
+- `Alta`: automation score equal to or above `52.92`
+
+**Final class distribution:**
+
+- `Baja`: `750` operational units (`25.0%`)
+- `Media`: `1,497` operational units (`49.9%`)
+- `Alta`: `753` operational units (`25.1%`)
+
+**Relative classification warning:** These classes are defined using the 25th and 75th percentiles of the current dataset. Therefore, priority is relative to the analyzed population and should not be interpreted as a universal business threshold.
+
 **Business interpretation:
 
 * Alta: Strong automation potential and higher expected operational impact
