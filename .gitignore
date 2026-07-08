@@ -24,3 +24,13 @@ data/processed/
 
 # Logs
 *.log
+
+# macOS
+.DS_Store
+
+# Tableau temporary files
+*.twbr
+
+# Temporary and backup files
+*.tmp
+*.bak
