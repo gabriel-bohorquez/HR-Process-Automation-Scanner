@@ -15,6 +15,27 @@ This project identifies, prioritizes and recommends HR processes with the highes
 
 It transforms operational HR ticket data into a decision-support tool that helps teams understand where automation can generate the highest operational impact.
 
+---
+
+## Executive Summary
+
+| Category | Detail |
+|---|---|
+| Project Type | End-to-End Data Analytics & Machine Learning |
+| Industry | HR Operations / People Analytics |
+| Main Objective | Identify, prioritize and recommend HR process automation opportunities |
+| Dataset Size | 200,000 HR operational cases |
+| Operational Units | 3,000 |
+| Machine Learning Task | Multiclass Classification |
+| Model | Logistic Regression |
+| Accuracy | 96.83% |
+| Macro F1 Score | 96.85% |
+| Dashboard | Tableau |
+| Web App | Streamlit |
+| Business Focus | Process Optimization · Automation Prioritization · Decision Support |
+
+---
+
 ## Live Demo
 
 Try the application online:
@@ -179,3 +200,93 @@ This section explains the complete analytical workflow used to build the solutio
 
 ![Project Methodology](images/methodology.png)
 
+---
+
+# Business Impact
+
+This solution was designed to support HR Operations teams in identifying where automation generates the highest operational value.
+
+### Business outcomes
+
+- Prioritizes automation initiatives using objective business criteria.
+- Estimates operational hours that can potentially be saved.
+- Supports investment decisions with data-driven recommendations.
+- Reduces manual analysis during automation assessments.
+- Standardizes prioritization across different HR systems and regions.
+- Combines business rules with Machine Learning to improve decision-making.
+
+### Practical value
+
+Instead of replacing human decisions, the platform provides an explainable prioritization framework that helps HR teams focus automation efforts where they can produce the greatest operational impact.
+
+---
+
+# Future Improvements
+
+The project can be extended in several directions to increase scalability and business value:
+
+- Implement gradient boosting models (XGBoost, LightGBM and CatBoost) for performance comparison.
+- Integrate SHAP values to improve model explainability.
+- Connect the application to live HR ticketing systems through APIs.
+- Deploy the solution on cloud infrastructure (Azure, AWS or GCP).
+- Add user authentication and role-based permissions.
+- Generate downloadable executive reports (PDF / Excel).
+- Monitor model drift and automate periodic retraining.
+- Incorporate Large Language Models (LLMs) to generate natural-language business recommendations.
+
+---
+
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/gabriel-bohorquez/HR-Process-Automation-Scanner.git
+```
+
+Move into the project directory:
+
+```bash
+cd HR-Process-Automation-Scanner
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+streamlit run app/app.py
+```
+
+The application will be available locally in your browser.
+
+---
+
+# Credits
+
+Developed by **Gabriel Bohorquez** as an end-to-end Data Analytics and Machine Learning project focused on HR Operations and Business Process Optimization.
+
+The project combines business analysis, exploratory data analysis, machine learning, interactive dashboards and Streamlit deployment to demonstrate an end-to-end analytics workflow.
+
+---
+
+# Contact
+
+- 💼 LinkedIn: https://www.linkedin.com/in/eb20/
+- 📧 Email: gabrielb76@gmail.com
+- 🚀 Live Demo: https://hr-process-automation-scanner.streamlit.app
+- 💻 GitHub: https://github.com/gabriel-bohorquez
+
+---
+
+## About this portfolio
+
+This repository is part of my Data Analytics portfolio, showcasing end-to-end projects that combine business understanding, analytics, machine learning and decision-support solutions.
+
+More projects are available on my GitHub profile.
+
+⭐ If you found this repository useful, consider giving it a star.
