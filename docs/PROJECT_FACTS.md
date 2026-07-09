@@ -462,6 +462,24 @@ estimated_operational_hours_saved = (
 
 **Post-prediction logic:** The automation recommendation and estimated operational savings are generated after the Machine Learning prediction through separate business-rule functions.
 
+**Verified deployment and reproducibility status:**
+
+- Local audit environment: Python `3.14.3`
+- Declared deployment runtime: Python `3.11`
+- Deployment platform: Streamlit Community Cloud
+- Production dependency file: `requirements.txt`
+- Development dependency file: `requirements-dev.txt`
+- Serialized-model scikit-learn version: `1.6.1`
+- Deployed application status: successfully loaded after dependency separation
+- Ranking view status: operational
+- Prediction workflow status: operational
+- Probability output status: operational
+- Estimated operational savings output status: operational
+
+**Environment interpretation:** Python `3.11` was retained for deployment compatibility and stability, while the local audit was performed with Python `3.14.3`.
+
+**Reproducibility limitation:** Full end-to-end reproducibility has not yet been validated in a clean local Python `3.11` environment. However, the deployed application successfully installs and executes the production workflow with the declared runtime and dependencies.
+
 ## 9. Limitations, Allowed Claims, and Prohibited Claims
 
 ### Main Limitations
