@@ -350,6 +350,33 @@
 2. Apply a savings rate according to the assigned automation-priority class.
 3. Multiply the estimated time saved per case by the total case volume.
 
+**Verified operational-hours-saved formula:**
+
+```python
+estimated_operational_hours_saved = (
+    total_cases
+    * estimated_manual_handling_time_hours
+    * estimated_savings_rate
+)
+```
+
+**Savings rates by priority:**
+
+- `Alta`: `35%`
+- `Media`: `20%`
+- `Baja`: `5%`
+
+**Verified totals:**
+
+- `Alta`: `429,591.71` estimated operational hours saved
+- `Media`: `288,747.94` estimated operational hours saved
+- `Baja`: `21,032.25` estimated operational hours saved
+- Overall total: `739,371.90` estimated operational hours saved
+
+**Formula verification result:** Recalculation produced `0` row-level mismatches and a maximum difference of `0.0`.
+
+**Interpretation warning:** This is a scenario-based operational estimate derived from assumed manual-handling time and priority-based savings rates. It is not a realized financial saving or independently validated ROI.
+
 **Reported total estimated savings:** `739,372` operational hours.
 
 **Critical limitation:** This figure is a scenario-based analytical estimate, not a measured or realized business outcome.
