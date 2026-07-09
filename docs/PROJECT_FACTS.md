@@ -220,6 +220,20 @@
 
 **Baseline interpretation:** The selected model substantially outperforms a classifier that always predicts the majority class. This confirms that it captures the rule-derived prioritization structure beyond class frequency alone.
 
+**Per-class test performance:**
+
+- `Alta`: precision `0.9481`, recall `0.9669`, F1 score `0.9574`, support `151`
+- `Media`: precision `0.9698`, recall `0.9666`, F1 score `0.9682`, support `299`
+- `Baja`: precision `0.9865`, recall `0.9733`, F1 score `0.9799`, support `150`
+
+**Confusion matrix summary:**
+
+- `Alta`: `146` correctly classified, `5` classified as `Media`
+- `Media`: `289` correctly classified, `8` classified as `Alta`, `2` classified as `Baja`
+- `Baja`: `146` correctly classified, `4` classified as `Media`
+
+**Class-level interpretation:** Performance is consistently high across all three priority classes. Most errors occur between adjacent priority levels, while no direct confusion was observed between `Alta` and `Baja`.
+
 **Methodological caveat:** Strong performance against the baseline does not remove the conceptual circularity between the engineered target and the operational features used by the model.
 
 **Model-selection criterion:** Highest Macro F1 score among the evaluated models.
