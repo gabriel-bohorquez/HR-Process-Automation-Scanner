@@ -83,14 +83,14 @@ The final solution includes:
 | Classes | Alta · Media · Baja |
 | Task | Multiclass Classification |
 
-The model predicts the automation priority of HR operational units with high overall performance, making it suitable for decision-support scenarios.
+The model reproduces the business-rule-derived automation-priority classification with high test-set performance and can support consistent decision-making within this analytical prototype.
 
 ---
 
 ## Key Features
 
 - Prioritizes HR processes based on automation potential.
-- Predicts automation priority using Machine Learning.
+- Applies Machine Learning to reproduce and scale the business-rule-derived automation-priority classification.
 - Estimates operational hours that can be saved.
 - Interactive filtering by HR Process, System, Region and Channel.
 - Business recommendation engine.
