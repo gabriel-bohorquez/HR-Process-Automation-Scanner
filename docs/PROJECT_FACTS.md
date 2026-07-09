@@ -177,6 +177,23 @@
 
 **Selected model:** Logistic Regression.
 
+**Verified serialized-model configuration:**
+
+- scikit-learn version: `1.6.1`
+- Estimator: `LogisticRegression`
+- Regularization strength (`C`): `1.0`
+- Penalty: `l2`
+- Solver: `lbfgs`
+- Multiclass handling: multinomial classification through the `lbfgs` solver; the legacy `multi_class` parameter appears as deprecated in scikit-learn `1.6.1`.
+- Maximum iterations: `1000`
+- Class weighting: `None`
+- Random state parameter: `42` — stored in the estimator configuration, although it does not affect the deterministic `lbfgs` solver.
+- Learned classes: `Alta`, `Baja`, `Media`
+- Coefficient matrix shape: `(3, 42)`
+- Intercept vector shape: `(3,)`
+
+**Interpretation:** The final pipeline expands the original features into 42 model inputs after preprocessing and one-hot encoding.
+
 **Final test metrics:**
 
 * Accuracy: `0.9683`
