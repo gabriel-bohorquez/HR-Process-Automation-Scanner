@@ -421,6 +421,18 @@ estimated_operational_hours_saved = (
 
 **Production-readiness limitation:** The application is a portfolio prototype. It has not been validated against live HR systems, real-time ticketing data, enterprise security requirements, or production monitoring standards.
 
+**Verified Tableau dataset alignment:**
+
+- Source ranking dataset: `data/final/hr_process_automation_ranking_clean.csv`
+- Tableau dataset: `data/final/tableau_hr_automation_dashboard.csv`
+- Ranking shape: `3,000 × 35`
+- Tableau shape: `3,000 × 10`
+- Shared-column equality check: `True`
+- Total cases in both datasets: `200,000`
+- Total estimated operational hours saved in both datasets: `739,371.90`
+
+**Verification result:** All columns included in the Tableau dataset are exact row-level matches with the corresponding columns in the final ranking dataset.
+
 ## 9. Limitations, Allowed Claims, and Prohibited Claims
 
 ### Main Limitations
