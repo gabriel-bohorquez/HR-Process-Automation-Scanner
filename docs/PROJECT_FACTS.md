@@ -201,6 +201,27 @@
 * Macro recall: `0.9689`
 * Macro F1 score: `0.9685`
 
+**Training-versus-test validation:**
+
+- Training accuracy: `0.9912`
+- Test accuracy: `0.9683`
+- Accuracy generalization gap: `0.0229`
+- Training Macro F1: `0.9912`
+- Test Macro F1: `0.9685`
+- Macro F1 generalization gap: `0.0228`
+
+**Overfitting assessment:** The approximately 2.3-percentage-point gap between training and test performance indicates a small reduction in unseen-data performance, but no evidence of severe overfitting within the current dataset.
+
+**Dummy baseline:**
+
+- Strategy: most frequent class
+- Baseline accuracy: `0.4983`
+- Baseline Macro F1: `0.2217`
+
+**Baseline interpretation:** The selected model substantially outperforms a classifier that always predicts the majority class. This confirms that it captures the rule-derived prioritization structure beyond class frequency alone.
+
+**Methodological caveat:** Strong performance against the baseline does not remove the conceptual circularity between the engineered target and the operational features used by the model.
+
 **Model-selection criterion:** Highest Macro F1 score among the evaluated models.
 
 **Interpretation:** The selected model correctly classifies approximately 97 out of every 100 operational units in the test set and performs consistently across the `Alta`, `Media`, and `Baja` classes.
