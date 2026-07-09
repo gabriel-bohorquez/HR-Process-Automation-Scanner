@@ -104,29 +104,37 @@ The model reproduces the business-rule-derived automation-priority classificatio
 HR-Process-Automation-Scanner
 │
 ├── app/
-│   └── Streamlit application
+│   └── app.py
 │
 ├── data/
-│   └── Dataset
+│   ├── raw/
+│   └── final/
+│
+├── docs/
+│   └── PROJECT_FACTS.md
 │
 ├── images/
-│   └── Dashboard screenshots
+│   └── Dashboard and application screenshots
 │
 ├── models/
-│   └── Trained Machine Learning model
+│   └── automation_priority_model.pkl
 │
 ├── notebooks/
-│   ├── 01_Data_Understanding.ipynb
-│   ├── 02_Exploratory_Analysis.ipynb
-│   └── 03_Machine_Learning.ipynb
+│   ├── 01_comprension_de_datos.ipynb
+│   ├── 02_analisis_exploratorio_automatizacion.ipynb
+│   └── 03_modelo_machine_learning.ipynb
 │
 ├── reports/
-│   └── Tableau dashboard
+│   └── Analytical outputs and validation reports
 │
 ├── src/
-│   └── Helper functions
+│   └── hr_automation_utils.py
 │
+├── HR_Process_Automation_Dashboard.twbx
 ├── requirements.txt
+├── requirements-dev.txt
+├── runtime.txt
+├── LICENSE
 └── README.md
 ```
 
