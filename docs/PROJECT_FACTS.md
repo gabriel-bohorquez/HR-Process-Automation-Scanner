@@ -433,6 +433,35 @@ estimated_operational_hours_saved = (
 
 **Verification result:** All columns included in the Tableau dataset are exact row-level matches with the corresponding columns in the final ranking dataset.
 
+**Verified Streamlit-to-model alignment:**
+
+- Application file: `app/app.py`
+- Ranking dataset loaded by the app: `data/final/hr_process_automation_ranking_clean.csv`
+- Serialized model loaded by the app: `models/automation_priority_model.pkl`
+- Prediction methods used: `predict()` and `predict_proba()`
+
+**Verified model-input features:**
+
+- `hr_process_name`
+- `hr_system_name`
+- `hr_contact_channel`
+- `region`
+- `total_cases`
+- `avg_resolution_time_hours`
+- `avg_first_response_time_hours`
+- `sla_breach_rate`
+- `escalation_rate`
+- `avg_complexity_score`
+- `avg_satisfaction_score`
+- `avg_previous_cases`
+- `avg_employee_tenure_months`
+- `high_priority_rate`
+- `urgent_priority_rate`
+
+**Verification result:** The Streamlit input DataFrame contains the same 15 raw features expected by the serialized production pipeline.
+
+**Post-prediction logic:** The automation recommendation and estimated operational savings are generated after the Machine Learning prediction through separate business-rule functions.
+
 ## 9. Limitations, Allowed Claims, and Prohibited Claims
 
 ### Main Limitations
