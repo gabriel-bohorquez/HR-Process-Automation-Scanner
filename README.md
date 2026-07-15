@@ -284,7 +284,7 @@ The project combines business analysis, exploratory data analysis, machine learn
 
 # Contact
 
-- 💼 LinkedIn: https://www.linkedin.com/in/eb20/
+- 💼 LinkedIn: [linkedin.com/in/gabriel-bohorquez](https://www.linkedin.com/in/gabriel-bohorquez)
 - 📧 Email: gabrielb76@gmail.com
 - 🚀 Live Demo: https://hr-process-automation-scanner.streamlit.app
 - 💻 GitHub: https://github.com/gabriel-bohorquez
